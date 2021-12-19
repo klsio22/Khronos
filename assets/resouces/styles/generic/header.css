@@ -1,6 +1,15 @@
 .shipping-message {
   text-align: center;
   font-weight: bold;
+  color:#920c0b;
+}
+
+.contact{
+  opacity: 0.7;
+}
+
+.top-main {
+  background-color: #920c0b;
 }
 
 .top-elements {
@@ -21,7 +30,7 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 15px 50px 15px 30px;
   border-radius: 5px;
-  width: 37vw;
+  width: 39.5vw;
   font-weight: 300;
 }
 
@@ -41,6 +50,9 @@
 }
 
 /* ======== Usuario - Login - Carinho =======*/
+.search-auth-cart{
+  margin-top: 1rem;
+}
 
 .user-auth-cart {
   display: flex;
@@ -57,7 +69,9 @@
   width: 11rem;
   margin-left: -4rem;
 }
-
+.auth{
+  color: #ffffffec;
+}
 .cart {
   display: flex;
   align-items: center;
@@ -69,8 +83,8 @@
   justify-content: center;
   align-items: center;
 
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   font-size: 10px;
   cursor: pointer !important;
   border-radius: 1rem;
