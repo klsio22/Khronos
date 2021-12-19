@@ -1,0 +1,18 @@
+/* ========== Global ======= */
+:root {
+  --color-body-primary: #bdbdbd;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 85.75%; /*15px*/
+}
+
+body {
+  background-color: var(--color-body-primary);
+  font-family: 400 1px "Source Sans Pro", sans-serif;
+  min-width:350px
+}

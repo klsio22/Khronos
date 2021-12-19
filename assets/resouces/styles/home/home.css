@@ -1,0 +1,109 @@
+.shipping-message {
+  text-align: center;
+  font-weight: bold;
+}
+
+.top-elements {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 12px;
+}
+
+/* ======== Botão de pesquisa =======*/
+.content-search-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-text-top {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 50px 15px 30px;
+  border-radius: 5px;
+  width: 37vw;
+  font-weight: 300;
+}
+
+.btn-search-top {
+  height: 22px;
+  cursor: pointer !important;
+  border: none;
+  background-color: #ffffff;
+  transform: translateY(-50%);
+  padding: 0;
+  position: relative;
+  top: 25px;
+  left: -43px;
+}
+.btn-search-top svg {
+  opacity: 0.3;
+}
+
+/* ======== Usuario - Login - Carinho =======*/
+
+.user-auth-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15rem;
+  margin-left: 6rem;
+}
+
+.user-auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 11rem;
+  margin-left: -4rem;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 20px;
+  width: 20px;
+  font-size: 10px;
+  cursor: pointer !important;
+  border-radius: 1rem;
+  background-color: rgb(88, 0, 0);
+  transform: translateY(-50%);
+  padding: 0;
+  position: relative;
+  top: 0px;
+  left: -18px;
+}
+/* ======= Menu ======== */
+
+.top-menu {
+  background-color: #fff;
+  height: 6rem;
+}
+
+.top-menu ul li .active {
+  color: #ff0000;
+}
+
+.top-menu ul li a {
+  color: #000000;
+  opacity: 0.6;
+}
+
+.top-menu ul li {
+  margin-right: 2rem;
+}
+
+.offers {
+  height: 3.5rem;
+  width: 6rem;
+  border-radius: 5px;
+  background-color: #ff8925;
+}
