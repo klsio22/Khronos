@@ -1,0 +1,87 @@
+.content-register {
+  background-color: #920c0b;
+}
+
+.form-footer input,
+button {
+  height: 3.5rem;
+}
+
+.message-register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-footer .btn-footer {
+  background-color: #00871f;
+  width: 10rem;
+}
+
+.policy-and-privacy {
+  font-size: 12px;
+}
+
+/* ----------------- */
+
+.message-social-midia {
+  margin-right: 5rem;
+}
+
+.social-midia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icons-social-midia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item-social-midia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-right: 1.5rem;
+}
+/* -------------- */
+
+.info ul li {
+  padding-bottom: 0.5rem;
+}
+
+.payments ul {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  flex-wrap: wrap;
+}
+
+.payments ul li {
+  margin: 3px;
+}
+
+.card,
+.secure-card {
+  background-color: grey;
+  border-radius: 3px;
+}
+
+.payments .card {
+  width: 3.2rem;
+  height: 2rem;
+}
+
+.payments .secure-card {
+  width: 4rem;
+  height: 2.5rem;
+}

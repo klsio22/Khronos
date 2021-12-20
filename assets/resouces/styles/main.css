@@ -1,8 +1,8 @@
 /* ========== Global ======= */
 :root {
   --color-body-primary: #bdbdbd;
-
 }
+
 * {
   box-sizing: border-box;
 }
