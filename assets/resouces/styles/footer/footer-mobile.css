@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .register .col-register {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .register .col-register div {
+    padding: 0.5rem;
+  }
+  .content-register .form-footer .btn-footer {
+    width: inherit;
+  }
+}
+/*# sourceMappingURL=footer-mobile.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AACE,SADO,CACP,aAAa,CAAC;IACZ,cAAc,EAAE,MAAM;GAKvB;EAPH,AAII,SAJK,CACP,aAAa,CAGX,GAAG,CAAC;IACF,OAAO,EAAE,MAAM;GAChB;EAIL,AAEI,iBAFa,CACf,YAAY,CACV,WAAW,CAAC;IACV,KAAK,EAAE,OAAO;GACf",
+    "sources": [
+        "footer-mobile.scss"
+    ],
+    "names": [],
+    "file": "footer-mobile.css"
+}

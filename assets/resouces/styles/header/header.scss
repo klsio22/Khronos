@@ -1,15 +1,28 @@
+@import "../variables";
+
+@mixin flexElement($align_items, $justify_content) {
+  display: flex;
+  align-items: $align_items;
+  justify-content: $justify_content;
+}
+
+
+
 .top-site {
+  
+  .row{
+    --bs-gutter-x: 0;
+  }
+
   .shipping-message {
-    color: #920c0b;
+    color: $red-secondary;
   }
 
   .top-main {
-    background-color: #920c0b;
+    background-color: $red-secondary;
 
     .top-elements {
-      display: flex;
-      align-items: center;
-      justify-content: end;
+      @include flexElement(center, end);
       font-size: 12px;
     }
 
@@ -21,16 +34,15 @@
       margin-top: 1rem;
 
       .content-search-top {
-        display: flex;
+        @include flexElement(initial, center);
         flex-wrap: wrap;
-        justify-content: center;
       }
 
-      .content-search-top .btn-text-top {
+      .content-search-top .input-search {
         border: 1px solid rgba(255, 255, 255, 0.1);
         padding: 13px 50px 13px 30px;
         border-radius: 5px;
-        width: 36vmax;
+        width: 36vw;
         font-weight: 300;
       }
 
@@ -38,51 +50,44 @@
         height: 22px;
         cursor: pointer !important;
         border: none;
-        background-color: #ffffff;
         transform: translateY(-50%);
         padding: 0;
         position: relative;
-        top: 25px;
+        top: 23px;
         left: -43px;
       }
     }
 
     .user-auth-cart {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      @include flexElement(center, space-between);
+     
       width: 15rem;
       margin-left: 6rem;
 
       .user-auth {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 11rem;
+        @include flexElement(center, space-between);
+        width: 10.5rem;
         margin-left: -4rem;
       }
 
       .auth {
-        color: #ffffffec;
+        color: $white-primary;
       }
+      
       .cart {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flexElement(center, center);
         margin-right: -1.2rem;
       }
 
       .cart .notification-cart {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexElement(center, center);
 
         height: 25px;
         width: 25px;
         font-size: 10px;
         cursor: pointer !important;
         border-radius: 1rem;
-        background-color: rgb(88, 0, 0);
+        background-color: #580000;
         transform: translateY(-50%);
         padding: 0;
         position: relative;
@@ -93,19 +98,18 @@
   }
 
   .top-menu {
-    background-color: #fff;
-    height: 6rem;
-
+    background-color: $white-primary;
+    padding: 1rem;
     .active {
-      color: #ff0000;
+      color: $red-primary;
     }
 
-    li{
-     padding-left: 1rem;
+    li {
+      padding-left: 1rem;
     }
 
     a {
-      color: #000000;
+      color: $black;
       opacity: 0.7;
     }
 
@@ -122,5 +126,3 @@
     }
   }
 }
-
-

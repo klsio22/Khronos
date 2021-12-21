@@ -1,5 +1,11 @@
 @import "../variables";
 
+@mixin flexCenter($align_items, $justify_content) {
+  display: flex;
+  align-items: $align_items;
+  justify-content: $justify_content;
+}
+
 .vitrine {
   display: block;
   margin: 20px auto;
@@ -20,9 +26,8 @@ ul {
   }
 }
 .product-list {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  @include flexCenter(center, center);
+
   margin: 0 auto;
   max-width: 1300px;
   width: 100%;
@@ -62,9 +67,7 @@ ul {
     height: 240px;
     width: 100%;
     // center image
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    @include flexCenter(center, center);
     img {
       max-width: 200px;
     }
@@ -95,9 +98,8 @@ ul {
     }
   }
   .price-box {
-    align-items: center;
+    @include flexCenter(center, initial);
 
-    display: flex;
     justify-content: space-between;
     padding: 15px;
   }
@@ -130,13 +132,10 @@ ul {
 .btn-block {
   padding-top: 1rem;
 
-  display: flex;
-  justify-content: center;
+  @include flexCenter(initial, center);
 
   .btn-buy {
-    display: flex;
-    justify-content: center;
-
+    @include flexCenter(initial, center);
     width: 17vmax;
 
     background: $red-tertiary;

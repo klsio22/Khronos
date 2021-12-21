@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;EAEtB,AAAA,mBAAmB,CAAC,aAAa,CAAC;IAChC,KAAK,EAAE,KAAK;GAEb",
+    "sources": [
+        "header-desktop.scss"
+    ],
+    "names": [],
+    "file": "header-desktop.css"
+}

@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .register {
+    .col-register {
+      flex-direction: column;
+
+      div {
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  .content-register {
+    .form-footer {
+      .btn-footer {
+        width: inherit;
+      }
+    }
+  }
+}
