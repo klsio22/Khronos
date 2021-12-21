@@ -1,0 +1,92 @@
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-register {
+  background-color: #920c0b;
+
+  .form-footer {
+    input,
+    button {
+      height: 3.5rem;
+    }
+
+    .btn-footer {
+      background-color: #00871f;
+      width: 10rem;
+    }
+
+    .message-register {
+      @include flexCenter();
+    }
+
+    .policy-and-privacy {
+      font-size: 12px;
+    }
+  }
+}
+
+/* ---------------- */
+
+.footer-links {
+  .info ul li {
+    padding-bottom: 0.5rem;
+  }
+
+  .payments {
+    ul {
+      display: flex;
+      align-items: center;
+      width: 20rem;
+      flex-wrap: wrap;
+      li {
+        margin: 3px;
+      }
+    }
+
+    .card,
+    .secure-card {
+      background-color: grey;
+      border-radius: 3px;
+    }
+
+    .card {
+      width: 3.2rem;
+      height: 2rem;
+    }
+
+    .secure-card {
+      width: 4rem;
+      height: 2.5rem;
+    }
+  }
+
+}
+
+/* ------------------- */
+
+.social-midia {
+  @include flexCenter();
+  flex-wrap: wrap;
+
+  .message-social-midia {
+    margin-right: 5rem;
+  }
+
+  .icons-social-midia {
+    @include flexCenter();
+    flex-wrap: wrap;
+
+    .item-social-midia {
+      @include flexCenter();
+
+      width: 4rem;
+      height: 4rem;
+      border: 1px solid rgb(0, 0, 0);
+      border-radius: 5px;
+      margin-right: 1.5rem;
+    }
+  }
+}

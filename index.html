@@ -7,14 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- reset -->
-
   <link rel="stylesheet" href="/assets/resouces/styles/reset.css">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
 
   <!-- Bootstrp -->
@@ -26,7 +24,7 @@
   <link rel="stylesheet" href="/assets/resouces/styles/main.css">
   <link rel="stylesheet" href="/assets/resouces/styles/generic/header.css">
   <link rel="stylesheet" href="/assets/resouces/styles/generic/footer.css">
-  <link rel="stylesheet" href="/assets/resouces/styles/home/products.css">
+  <link rel="stylesheet" href="/assets/resouces/styles/products/products.css">
 
   <title>Khronos</title>
 
@@ -35,13 +33,16 @@
 <body>
 
   <header>
-    <div class="">
+    <div class="top-site">
 
-      <div class="p-3 bg-warning bold shipping-message">
-        Economize com frete grátis para Sul e Sudeste nas compras acima de R$500,00
+      <div class="p-3 bg-warning  text-center shipping-message">
+        <h6 class="fw-bold">
+          Economize com frete grátis para Sul e Sudeste nas compras acima de R$500,00
+
+        </h6>
       </div>
 
-      <div class="p-3 top-main text-white">
+      <div class="p-3 text-white top-main ">
 
         <div class="container">
 
@@ -51,7 +52,7 @@
             </span>
           </div>
 
-          <div class="search-auth-cart top-elements">
+          <div class="pb-3  search-auth-cart top-elements">
             <div class="col-lg-4 search-login top-elements">
 
               <nav class="navbar navbar-light ">
@@ -63,7 +64,7 @@
                       <button class="btn-search-top" type="submit">
 
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
-                          class="bi bi-search" viewBox="0 0 16 16">
+                          class="bi bi-search opacity-50" viewBox="0 0 16 16">
                           <path
                             d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                         </svg>
@@ -153,19 +154,19 @@
   </header>
 
   <main>
-    <div class="conteiner products">
-      <h2 class="vitrine">Mais vitos da semana</h2>
+    <div class="container products">
+      <h2 class="vitrine">Mais vistos da semana</h2>
       <ul class="product-list">
 
         <li class="product-item">
           <a href="https://www.cupcom.com.br" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="/public/camera-segurança.jpg" alt="description image">
+                <img src="./public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
-                <h2 class="title ">Product name</h2>
+                <h2 class="title ">Superia 4000 D4 Junior 4 Zonas Cdisc</h2>
 
                 <span class="product-code">CD367</span>
 
@@ -173,16 +174,27 @@
               <div class="price-box row">
                 <div class="price">
                   <div class="price-column">
-                    <del>R$300,00</del>
-                    <ins>R$180,00</ins>
+                    <del>R$125,60</del>
+                    <ins>R$109,15</ins>
                   </div>
-                  <span class="price-info">4x de R$ 49,97 </span>
+                  <span class="parcel-numbers">6x de R$ 18,19 sem juros</span>
 
                 </div>
-                <div class="btn-block">
-                  <button href="#" class="btn btn-buy">Buy now <i class="fas fa-arrow-right"></i></button>
+                <div class="btn-block ">
+
+                  <button href="#" class="btn btn-buy">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                      fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg>
+
+                    <span>
+                      COMPRAR
+                    </span>
+                  </button>
                 </div>
-                
+
               </div>
             </figure>
           </a>
@@ -192,11 +204,11 @@
           <a href="https://www.cupcom.com.br" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="/public/camera-segurança.jpg" alt="description image">
+                <img src="./public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
-                <h2 class="title ">Product name</h2>
+                <h2 class="title ">Superia 4000 D4 Junior 4 Zonas Cdisc</h2>
 
                 <span class="product-code">CD367</span>
 
@@ -204,16 +216,27 @@
               <div class="price-box row">
                 <div class="price">
                   <div class="price-column">
-                    <del>R$300,00</del>
-                    <ins>R$180,00</ins>
+                    <del>R$125,60</del>
+                    <ins>R$109,15</ins>
                   </div>
-                  <span class="price-info">4x de R$ 49,97 </span>
+                  <span class="parcel-numbers">6x de R$ 18,19 sem juros</span>
 
                 </div>
                 <div class="btn-block">
-                  <button href="#" class="btn btn-buy">Buy now <i class="fas fa-arrow-right"></i></button>
+
+                  <button href="#" class="btn btn-buy">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                      fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg>
+
+                    <span>
+                      COMPRAR
+                    </span>
+                  </button>
                 </div>
-                
+
               </div>
             </figure>
           </a>
@@ -223,11 +246,11 @@
           <a href="https://www.cupcom.com.br" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="/public/camera-segurança.jpg" alt="description image">
+                <img src="./public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
-                <h2 class="title ">Product name</h2>
+                <h2 class="title ">Superia 4000 D4 Junior 4 Zonas Cdisc</h2>
 
                 <span class="product-code">CD367</span>
 
@@ -235,16 +258,27 @@
               <div class="price-box row">
                 <div class="price">
                   <div class="price-column">
-                    <del>R$300,00</del>
-                    <ins>R$180,00</ins>
+                    <del>R$125,60</del>
+                    <ins>R$109,15</ins>
                   </div>
-                  <span class="price-info">4x de R$ 49,97 </span>
+                  <span class="parcel-numbers">6x de R$ 18,19 sem juros</span>
 
                 </div>
                 <div class="btn-block">
-                  <button href="#" class="btn btn-buy">Buy now <i class="fas fa-arrow-right"></i></button>
+
+                  <button href="#" class="btn btn-buy">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                      fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg>
+
+                    <span>
+                      COMPRAR
+                    </span>
+                  </button>
                 </div>
-                
+
               </div>
             </figure>
           </a>
@@ -254,11 +288,11 @@
           <a href="https://www.cupcom.com.br" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="/public/camera-segurança.jpg" alt="description image">
+                <img src="./public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
-                <h2 class="title ">Product name</h2>
+                <h2 class="title ">Superia 4000 D4 Junior 4 Zonas Cdisc</h2>
 
                 <span class="product-code">CD367</span>
 
@@ -266,21 +300,33 @@
               <div class="price-box row">
                 <div class="price">
                   <div class="price-column">
-                    <del>R$300,00</del>
-                    <ins>R$180,00</ins>
+                    <del>R$125,60</del>
+                    <ins>R$109,15</ins>
                   </div>
-                  <span class="price-info">4x de R$ 49,97 </span>
+                  <span class="parcel-numbers">6x de R$ 18,19 sem juros</span>
 
                 </div>
-                <div class="btn-block">
-                  <button href="#" class="btn btn-buy">Buy now <i class="fas fa-arrow-right"></i></button>
+
+                <div class="btn-block ">
+
+                  <button href="#" class="btn btn-buy">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                      fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg>
+
+                    <span>
+                      COMPRAR
+                    </span>
+                  </button>
                 </div>
-                
+
               </div>
             </figure>
           </a>
         </li>
-        
+
       </ul>
     </div>
   </main>
@@ -341,116 +387,112 @@
 
       <!-- Footer Links -->
 
-      <div class="container-fluid text-start text-md-left">
-        <div class="container">
+      <div class="container-fluid text-start text-md-left footer-links">
 
+        <div class="container p-4 ">
 
-          <div class="container p-4">
+          <!--Grid row-->
+          <div class="row opacity-75">
 
-            <!--Grid row-->
-            <div class="row opacity-75">
+            <!-- Grid column -->
+            <div class="col-md-3 mt-md-0 mt-3">
 
-              <!-- Grid column -->
-              <div class="col-md-3 mt-md-0 mt-3">
+              <!-- Content -->
+              <h5 class="fw-bold pb-4">Sobre a Khronos</h5>
 
-                <!-- Content -->
-                <h5 class="fw-bold pb-4">Sobre a Khronos</h5>
+              <p>Quem somos</p>
+              <p>Nossas Lojas</p>
+              <p>Resposabilidade Socioambiental</p>
 
-                <p>Quem somos</p>
-                <p>Nossas Lojas</p>
-                <p>Resposabilidade Socioambiental</p>
-
-              </div>
-
-
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 info">
-                <h5 class="fw-bold mb-0 pb-4">Informações</h5>
-
-                <ul class="list-unstyled">
-                  <li>
-                    <a href="#!" class="text-dark text-decoration-none">Políticas de toca e devolução</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-dark text-decoration-none">Política de compra</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-dark text-decoration-none">Política de entrega</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-dark text-decoration-none">Meus pedidos</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="fw-bold pb-3">Fale Conosco</h5>
-
-                <ul class="list-unstyled ">
-                  <li>
-                    <h5 class="fw-bold">Whatsapp</h5>
-                    <p>(00) 0000-0000</p>
-                  </li>
-                  <li>
-                    <h5 class="fw-bold">Televendas</h5>
-                    <p>(00) 0000-0000</p>
-                  </li>
-                  <li>
-                    <p>Seg à Sex das 8h ás 18h</p>
-                  </li>
-
-                </ul>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 payments">
-                <h5 class="fw-bold mb-0 pb-2">Formas de pagamento</h5>
-
-                <ul class="list-unstyled">
-                  <li>
-                    <div class="card">
-                    </div>
-                  </li>
-                  <li>
-                    <div class="card">
-                    </div>
-                  </li>
-                  <li>
-                    <div class="card">
-                    </div>
-                  </li>
-                  <li>
-                    <div class="card">
-                    </div>
-                  </li>
-                  <li>
-                    <div class="card">
-                    </div>
-                  </li>
-                  <li>
-                    <div class="card">
-                    </div>
-                  </li>
-                  <li>
-                    <div class="card">
-                    </div>
-                  </li>
-                </ul>
-                <h5 class="fw-bold mb-0 pb-3">Compra segura</h5>
-                <div class="secure-card">
-                </div>
-
-              </div>
-              <!--Grid column-->
             </div>
-            <!--Grid row-->
-          </div>
-          <!-- Grid container -->
 
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 info">
+              <h5 class="fw-bold mb-0 pb-4">Informações</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-dark text-decoration-none">Políticas de toca e devolução</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark text-decoration-none">Política de compra</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark text-decoration-none">Política de entrega</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark text-decoration-none">Meus pedidos</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="fw-bold pb-3">Fale Conosco</h5>
+
+              <ul class="list-unstyled ">
+                <li>
+                  <h5 class="fw-bold">Whatsapp</h5>
+                  <p>(00) 0000-0000</p>
+                </li>
+                <li>
+                  <h5 class="fw-bold">Televendas</h5>
+                  <p>(00) 0000-0000</p>
+                </li>
+                <li>
+                  <p>Seg à Sex das 8h ás 18h</p>
+                </li>
+
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 payments">
+              <h5 class="fw-bold mb-0 pb-2">Formas de pagamento</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <div class="card">
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                  </div>
+                </li>
+              </ul>
+              <h5 class="fw-bold mb-0 pb-3">Compra segura</h5>
+              <div class="secure-card">
+              </div>
+
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
         </div>
+        <!-- Grid container -->
 
       </div>
       <!-- Footer Links -->

@@ -2,86 +2,116 @@
   background-color: #920c0b;
 }
 
-.form-footer input,
-button {
+.content-register .form-footer input,
+.content-register .form-footer button {
   height: 3.5rem;
 }
 
-.message-register {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.form-footer .btn-footer {
+.content-register .form-footer .btn-footer {
   background-color: #00871f;
   width: 10rem;
 }
 
-.policy-and-privacy {
+.content-register .form-footer .message-register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content-register .form-footer .policy-and-privacy {
   font-size: 12px;
 }
 
-/* ----------------- */
-
-.message-social-midia {
-  margin-right: 5rem;
-}
-
-.social-midia {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.icons-social-midia {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.item-social-midia {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 4rem;
-  height: 4rem;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  margin-right: 1.5rem;
-}
-/* -------------- */
-
-.info ul li {
+/* ---------------- */
+.footer-links .info ul li {
   padding-bottom: 0.5rem;
 }
 
-.payments ul {
+.footer-links .payments ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 20rem;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.payments ul li {
+.footer-links .payments ul li {
   margin: 3px;
 }
 
-.card,
-.secure-card {
+.footer-links .payments .card,
+.footer-links .payments .secure-card {
   background-color: grey;
   border-radius: 3px;
 }
 
-.payments .card {
+.footer-links .payments .card {
   width: 3.2rem;
   height: 2rem;
 }
 
-.payments .secure-card {
+.footer-links .payments .secure-card {
   width: 4rem;
   height: 2.5rem;
 }
+
+/* ------------------- */
+.social-midia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.social-midia .message-social-midia {
+  margin-right: 5rem;
+}
+
+.social-midia .icons-social-midia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.social-midia .icons-social-midia .item-social-midia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 1.5rem;
+}
+/*# sourceMappingURL=footer.css.map */

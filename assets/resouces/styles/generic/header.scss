@@ -1,0 +1,126 @@
+.top-site {
+  .shipping-message {
+    color: #920c0b;
+  }
+
+  .top-main {
+    background-color: #920c0b;
+
+    .top-elements {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      font-size: 12px;
+    }
+
+    .contact {
+      opacity: 0.7;
+    }
+
+    .search-auth-cart {
+      margin-top: 1rem;
+
+      .content-search-top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .content-search-top .btn-text-top {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 13px 50px 13px 30px;
+        border-radius: 5px;
+        width: 36vmax;
+        font-weight: 300;
+      }
+
+      .content-search-top .btn-search-top {
+        height: 22px;
+        cursor: pointer !important;
+        border: none;
+        background-color: #ffffff;
+        transform: translateY(-50%);
+        padding: 0;
+        position: relative;
+        top: 25px;
+        left: -43px;
+      }
+    }
+
+    .user-auth-cart {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 15rem;
+      margin-left: 6rem;
+
+      .user-auth {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 11rem;
+        margin-left: -4rem;
+      }
+
+      .auth {
+        color: #ffffffec;
+      }
+      .cart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: -1.2rem;
+      }
+
+      .cart .notification-cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 25px;
+        width: 25px;
+        font-size: 10px;
+        cursor: pointer !important;
+        border-radius: 1rem;
+        background-color: rgb(88, 0, 0);
+        transform: translateY(-50%);
+        padding: 0;
+        position: relative;
+        top: 0px;
+        left: -18px;
+      }
+    }
+  }
+
+  .top-menu {
+    background-color: #fff;
+    height: 6rem;
+
+    .active {
+      color: #ff0000;
+    }
+
+    li{
+     padding-left: 1rem;
+    }
+
+    a {
+      color: #000000;
+      opacity: 0.7;
+    }
+
+    a:hover {
+      opacity: 1;
+    }
+
+    .offers {
+      height: 3.5rem;
+      width: 6rem;
+
+      border-radius: 5px;
+      background-color: #ff8925;
+    }
+  }
+}
+
+

@@ -1,0 +1,14 @@
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 85.75%; /*15px*/
+}
+
+body {
+  font-family: $font;
+  min-width: 350px;
+}
