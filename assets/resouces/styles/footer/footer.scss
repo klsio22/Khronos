@@ -1,11 +1,13 @@
-@mixin flexCenter {
+@import "../variables";
+
+@mixin flexElement($align_items, $justify_content) {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: $align_items;
+  justify-content: $justify_content;
 }
 
 .content-register {
-  background-color: #920c0b;
+  background-color: $red-secondary;
 
   .form-footer {
     input,
@@ -19,7 +21,7 @@
     }
 
     .message-register {
-      @include flexCenter();
+      @include flexElement(center, center);
     }
 
     .policy-and-privacy {
@@ -37,10 +39,10 @@
 
   .payments {
     ul {
-      display: flex;
-      align-items: center;
-      width: 20rem;
+      @include flexElement(center, initial);
       flex-wrap: wrap;
+
+      width: 20rem;
       li {
         margin: 3px;
       }
@@ -62,13 +64,12 @@
       height: 2.5rem;
     }
   }
-
 }
 
 /* ------------------- */
 
 .social-midia {
-  @include flexCenter();
+  @include flexElement(center,center);
   flex-wrap: wrap;
 
   .message-social-midia {
@@ -76,11 +77,11 @@
   }
 
   .icons-social-midia {
-    @include flexCenter();
-    flex-wrap: wrap;
+    @include flexElement(center, center);
+      flex-wrap: wrap;
 
     .item-social-midia {
-      @include flexCenter();
+      @include flexElement(center, center);
 
       width: 4rem;
       height: 4rem;

@@ -63,6 +63,11 @@ ul {
       top: 10px;
     } */
   }
+
+  .product-empty {
+    padding: 4.4rem;
+  }
+
   .product-info-img {
     height: 240px;
     width: 100%;
@@ -140,8 +145,9 @@ ul {
 
     background: $red-tertiary;
     border: 0;
-    color: #fff;
+    color: $white-primary;
     cursor: pointer;
+    border-radius: 0;
     padding: 10px 15px;
     text-decoration: none;
     transition: 0.2s;
@@ -157,7 +163,24 @@ ul {
       padding-left: 1rem;
     }
   }
+
+
 }
+
+.btn-block-empty{
+  background-color: #bebebe;
+  .btn-empty{
+    @include flexCenter(initial, center);
+    width: 17vmax;
+
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: 0.2s;
+    color: $white-primary;
+    
+  }
+}
+
 
 .d-block {
   display: block;
