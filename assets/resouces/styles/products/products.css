@@ -1,51 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
-.vitrine {
-  display: block;
-  margin: 20px auto;
-  max-width: 1300px;
-  text-align: center;
-  width: 100%;
-}
-
 .products {
   background-color: #fff;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
+.products .title {
+  color: #920c0b;
+  margin-bottom: 2rem;
 }
 
-ul li {
-  list-style: none;
-}
-
-.product-list {
+.products .owl-carousel.owl-drag .owl-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 auto;
-  max-width: 1300px;
-  width: 100%;
 }
 
-@media (max-width: 991px) {
-  .product-list {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
+.products .owl-prev {
+  right: 15px;
+  width: 1rem;
+}
+
+.products .owl-next {
+  right: -5px;
+  width: 1rem;
+}
+
+.products .owl-prev,
+.products .owl-next {
+  position: absolute;
+  top: -65px;
+}
+
+.products .owl-prev span,
+.products .owl-next span {
+  font-size: 2rem;
 }
 
 .product-item {
   border: 1px solid #e1e1e1;
   cursor: pointer;
-  margin: 15px 5px;
   max-width: 300px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
