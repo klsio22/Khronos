@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 .products {
   background-color: #fff;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .products .title {
@@ -12,13 +14,16 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 .products .owl-prev {
-  right: 15px;
+  right: 12px;
   width: 1rem;
 }
 
@@ -30,12 +35,12 @@
 .products .owl-prev,
 .products .owl-next {
   position: absolute;
-  top: -65px;
+  top: -73px;
 }
 
 .products .owl-prev span,
 .products .owl-next span {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .product-item {
@@ -129,7 +134,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 15px;
+  padding: 20px;
 }
 
 .product-item .price del {
@@ -163,7 +168,7 @@
           box-shadow: -2px 48px 56px -41px rgba(0, 0, 0, 0.37);
 }
 
-.btn-block {
+.product-item .btn-block {
   padding-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -176,7 +181,7 @@
           justify-content: center;
 }
 
-.btn-block .btn-buy {
+.product-item .btn-block .btn-buy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,35 +191,31 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 17vmax;
   background: #d30e16;
   border: 0;
-  color: #fff;
   cursor: pointer;
   border-radius: 0;
-  padding: 10px 15px;
-  text-decoration: none;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
 }
 
-.btn-block .btn-buy .fas {
+.product-item .btn-block .btn-buy .fas {
   margin-left: 3px;
 }
 
-.btn-block .btn-buy:hover {
+.product-item .btn-block .btn-buy:hover {
   background: #0c1979;
 }
 
-.btn-block .btn-buy span {
+.product-item .btn-block .btn-buy span {
   padding-left: 1rem;
 }
 
-.btn-block-empty {
-  background-color: #bebebe;
-}
-
-.btn-block-empty .btn-empty {
+.product-item .btn-buy, .product-item .btn-empty {
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding: 10px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,15 +225,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 17vmax;
-  padding: 10px 15px;
-  text-decoration: none;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  color: #fff;
 }
 
-.d-block {
-  display: block;
+.product-item .btn-block-empty {
+  background-color: #bebebe;
+}
+
+.product-item .btn-block-empty .btn-empty {
+  cursor: none;
 }
 /*# sourceMappingURL=products.css.map */

@@ -1,0 +1,44 @@
+@import "../variables";
+
+@mixin flexCenter($align_items, $justify_content) {
+  display: flex;
+  align-items: $align_items;
+  justify-content: $justify_content;
+}
+
+.Buy-by-brands {
+  .owl-brands {
+    padding: 1.3rem;
+    .brand {
+      width: 10rem;
+      height: 5rem;
+      background-color: $grey-primary;
+      border-radius: 5px;
+    }
+  }
+
+  .owl-carousel.owl-drag .owl-item {
+    @include flexCenter(initial, center);
+  }
+
+  .owl-prev {
+    left: -10px;
+    width: 1rem;
+  }
+
+  .owl-next {
+    right: 5px;
+    width: 1rem;
+  }
+
+  .owl-prev,
+  .owl-next {
+    position: absolute;
+    top: 15px;
+  }
+
+  .owl-prev span,
+  .owl-next span {
+    font-size: 3rem;
+  }
+}

@@ -8,6 +8,8 @@
 
 .products {
   background-color: $white-primary;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 
   .title {
     color: $red-secondary;
@@ -15,33 +17,29 @@
   }
 
   .owl-carousel.owl-drag .owl-item {
-    display: flex;
-    justify-content: center;
+    @include flexCenter(initial, center);
   }
 
   .owl-prev {
-    right: 15px;
+    right: 12px;
     width: 1rem;
   }
-  
+
   .owl-next {
     right: -5px;
     width: 1rem;
   }
-  
+
   .owl-prev,
   .owl-next {
     position: absolute;
-    top: -65px;
+    top: -73px;
   }
-  
+
   .owl-prev span,
-  .owl-next span{
-    font-size: 2rem;
+  .owl-next span {
+    font-size: 2.5rem;
   }
-
-
-
 }
 
 .product-item {
@@ -111,12 +109,14 @@
       overflow: hidden;
     }
   }
+
   .price-box {
     @include flexCenter(center, initial);
 
     justify-content: space-between;
-    padding: 15px;
+    padding: 20px;
   }
+
   .price {
     del {
       color: $black;
@@ -141,52 +141,52 @@
     transform: translateY(-2px);
     box-shadow: $shadow;
   }
-}
 
-.btn-block {
-  padding-top: 1rem;
 
-  @include flexCenter(initial, center);
-
-  .btn-buy {
+  .btn-block {
+    padding-top: 1rem;
+  
     @include flexCenter(initial, center);
-    width: 17vmax;
-
-    background: $red-tertiary;
-    border: 0;
-    color: $white-primary;
-    cursor: pointer;
-    border-radius: 0;
-    padding: 10px 15px;
-    text-decoration: none;
-    transition: 0.2s;
-    .fas {
-      margin-left: 3px;
-    }
-
-    &:hover {
-      background: #0c1979;
-    }
-
-    span {
-      padding-left: 1rem;
+  
+    .btn-buy {
+      @include flexCenter(initial, center);
+      
+      background: $red-tertiary;
+      border: 0;
+      cursor: pointer;
+      border-radius: 0;
+     
+      .fas {
+        margin-left: 3px;
+      }
+  
+      &:hover {
+        background: #0c1979;
+      }
+  
+      span {
+        padding-left: 1rem;
+      }
     }
   }
-}
 
-.btn-block-empty {
-  background-color: #bebebe;
-  .btn-empty {
-    @include flexCenter(initial, center);
-    width: 17vmax;
-
-    padding: 10px 15px;
+  .btn-buy, .btn-empty{
+    width: 100%;
+    color: $white-primary;
     text-decoration: none;
     transition: 0.2s;
-    color: $white-primary;
+    padding: 10px 15px;
+    @include flexCenter(initial, center);
   }
-}
+  
+  .btn-block-empty {
+    background-color: #bebebe;
+    .btn-empty {
+      cursor: none;
+  
+    }
+  }
 
-.d-block {
-  display: block;
+
+
 }

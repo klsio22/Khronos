@@ -1,0 +1,28 @@
+@import "../variables";
+
+@mixin flexCenter($align_items, $justify_content) {
+  display: flex;
+  align-items: $align_items;
+  justify-content: $justify_content;
+}
+
+.discover-stores {
+ 
+  .all-stores{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 3rem;
+  }
+
+  .block-store {
+    width: 19.6rem;
+    height: 20rem;
+    background-color: $grey-primary;
+
+
+
+  }
+}
+
+
