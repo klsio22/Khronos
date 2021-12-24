@@ -29,9 +29,12 @@ Você pode visualizar o layout do projeto através [desse link](https://xd.adobe
 ##  📜 Como executar
 
 - Caso tenha o git instalado na máquina, clone o repositório com o seguinte comando `git clone git@github.com:klsio22/Khronos.git` , ou faça o dowload como zip e extrai o arquivo.
-  
+
 - Execute o arquivo index no navegador para visualizar o projeto
+
   
-obs: Lembre-se de comentar esse trecho do código do top do head quando estiver em localhost : `
-   + "/" + location.href.split("/")[3] + "/";
-    document.getElementsByTagName("head")[0].appendChild(base);`
+
+obs: Lembre-se de comentar esse trecho do código do top do head quando estiver em localhost : 
+
+    "/" + location.href.split("/")[3] + "/";
+    document.getElementsByTagName("head")[0].appendChild(base);
