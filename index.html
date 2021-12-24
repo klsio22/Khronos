@@ -6,8 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+  <!-- Comente esse trecho do codigo quando estiver no localhost
+      
+      + "/" + location.href.split("/")[3] + "/";
+    document.getElementsByTagName("head")[0].appendChild(base);
+  
+  -->
+
+  <script>
+    let base = document.createElement("base");
+    base.href =
+      "//" + document.location.host + "/" + location.href.split("/")[3] + "/";
+    document.getElementsByTagName("head")[0].appendChild(base);
+  </script>
+
   <!-- reset -->
-  <link rel="stylesheet" href="/assets/resouces/styles/reset.css">
+  <link rel="stylesheet" href="assets/resouces/styles/reset.css">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,26 +36,26 @@
 
 
   <!-- owl-styles -->
-  <link rel="stylesheet" href="/assets/libraries/owl-styles/owl.theme.default.min.css">
-  <link rel="stylesheet" href="/assets/libraries/owl-styles/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/libraries/owl-styles/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/libraries/owl-styles/owl.carousel.min.css">
 
   <!-- Styles -->
 
-  <link rel="stylesheet" href="/assets/resouces/styles/main.css">
-  <link rel="stylesheet" href="/assets/resouces/styles/header/header.css">
-  <link rel="stylesheet" href="/assets/resouces/styles/header/header-desktop.css">
-  <link rel="stylesheet" href="/assets/resouces/styles/header/header-mobile.css">
+  <link rel="stylesheet" href="assets/resouces/styles/main.css">
+  <link rel="stylesheet" href="assets/resouces/styles/header/header.css">
+  <link rel="stylesheet" href="assets/resouces/styles/header/header-desktop.css">
+  <link rel="stylesheet" href="assets/resouces/styles/header/header-mobile.css">
 
-  <link rel="stylesheet" href="/assets/resouces/styles/products/products.css">
-  
-  <link rel="stylesheet" href="/assets/resouces/styles/home/promo.css">
+  <link rel="stylesheet" href="assets/resouces/styles/products/products.css">
 
-  <link rel="stylesheet" href="/assets/resouces/styles/home/monitoring.css">
-  <link rel="stylesheet" href="/assets/resouces/styles/home/category.css">
-  <link rel="stylesheet" href="/assets/resouces/styles/home/our-stores.css">
-  <link rel="stylesheet" href="/assets/resouces/styles/home/brands.css">
-  <link rel="stylesheet" href="/assets/resouces/styles/footer/footer.css">
-  <link rel="stylesheet" href="/assets/resouces/styles/footer/footer-mobile.css">
+  <link rel="stylesheet" href="assets/resouces/styles/home/promo.css">
+
+  <link rel="stylesheet" href="assets/resouces/styles/home/monitoring.css">
+  <link rel="stylesheet" href="assets/resouces/styles/home/category.css">
+  <link rel="stylesheet" href="assets/resouces/styles/home/our-stores.css">
+  <link rel="stylesheet" href="assets/resouces/styles/home/brands.css">
+  <link rel="stylesheet" href="assets/resouces/styles/footer/footer.css">
+  <link rel="stylesheet" href="assets/resouces/styles/footer/footer-mobile.css">
 
   <title>Khronos</title>
 
@@ -181,7 +196,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
@@ -223,7 +238,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img text-light">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
 
                 <div class="tag-procent ">
                   <span>-30%</span>
@@ -231,7 +246,7 @@
 
                 <div class="alert-promo ">
                   <div class="flash-img">
-                    <img src="/public/flash-ligado.svg" alt="">
+                    <img src="public/flash-ligado.svg" alt="">
                   </div>
                   <div class="text-uppercase">
                     Semana do consumidor
@@ -301,7 +316,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
@@ -343,7 +358,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
@@ -385,7 +400,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
@@ -432,7 +447,7 @@
     <div class="container promo-giga">
       <figure>
         <a href="#">
-          <img src="/public/promo-camera-giga.png" alt="promoção câmera giga">
+          <img src="public/promo-camera-giga.png" alt="promoção câmera giga">
         </a>
       </figure>
     </div>
@@ -443,7 +458,7 @@
         <figure class="block-figure">
 
           <div class="monitoring-img">
-            <img src="public/Controle-de-Acesso-e-Monitoramento.jpg" alt="Monitoramento" >
+            <img src="public/Controle-de-Acesso-e-Monitoramento.jpg" alt="Monitoramento">
           </div>
 
           <figcaption class="description-img text-light">
@@ -491,7 +506,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
@@ -533,7 +548,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img text-light">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
 
                 <div class="tag-procent ">
                   <span>-30%</span>
@@ -541,7 +556,7 @@
 
                 <div class="alert-promo ">
                   <div class="flash-img">
-                    <img src="/public/flash-ligado.svg" alt="">
+                    <img src="public/flash-ligado.svg" alt="">
                   </div>
                   <div class="text-uppercase">
                     Semana do consumidor
@@ -583,12 +598,12 @@
             </figure>
           </a>
         </div>
-        
+
         <div class="item product-item">
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <h5 class="product-empty text-center ">Produto sem estoque</h5>
 
@@ -611,7 +626,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
@@ -653,7 +668,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
@@ -695,7 +710,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
@@ -930,7 +945,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
@@ -972,7 +987,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img text-light">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
 
                 <div class="tag-procent ">
                   <span>-30%</span>
@@ -980,7 +995,7 @@
 
                 <div class="alert-promo ">
                   <div class="flash-img">
-                    <img src="/public/flash-ligado.svg" alt="">
+                    <img src="public/flash-ligado.svg" alt="">
                   </div>
                   <div class="text-uppercase">
                     Semana do consumidor
@@ -1022,12 +1037,12 @@
             </figure>
           </a>
         </div>
-        
+
         <div class="item product-item">
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <h5 class="product-empty text-center ">Produto sem estoque</h5>
 
@@ -1050,7 +1065,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
@@ -1092,7 +1107,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
@@ -1134,7 +1149,7 @@
           <a href="#!" target="_blank" class="product-link">
             <figure class="product-info">
               <div class="product-info-img">
-                <img src="./public/Superia-4000-D4.png" alt="description image">
+                <img src="public/Superia-4000-D4.png" alt="description image">
               </div>
               <figcaption class="product-info-description">
 
@@ -1408,9 +1423,9 @@
 
   </footer>
 
-  <script src="/assets/libraries/owl-js/jquery.min.js"></script>
-  <script src="/assets/libraries/owl-js/owl.carousel.min.js"></script>
-  <script src="/assets/libraries/owl-js/setup.js"></script>
+  <script src="assets/libraries/owl-js/jquery.min.js"></script>
+  <script src="assets/libraries/owl-js/owl.carousel.min.js"></script>
+  <script src="assets/libraries/owl-js/setup.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
