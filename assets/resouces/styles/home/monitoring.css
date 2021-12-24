@@ -76,4 +76,10 @@
           justify-content: end;
   padding: 0 1rem;
 }
+
+@media (max-width: 1000px) {
+  .monitoring {
+    display: none;
+  }
+}
 /*# sourceMappingURL=monitoring.css.map */

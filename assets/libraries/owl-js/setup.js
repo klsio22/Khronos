@@ -41,6 +41,10 @@ $(".owl-categorys").owlCarousel({
       },
 
       1000: {
+        items: 3,
+      },
+
+      1200: {
         items: 4,
       },
     },

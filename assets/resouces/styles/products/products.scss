@@ -59,16 +59,45 @@
     position: relative;
     width: 100%;
 
-    /* .tag-procent {
-      background:  $red-primary;
-      color: $white;
+    .tag-procent {
+      display: flex;
+      align-items: center;
       font-size: 12px;
       font-weight: bold;
-      padding: 5px 15px;
-      position: absolute;
-      right: 10px;
+      
+      left: 10px;
       top: 10px;
-    } */
+
+      span{
+        padding: 5px;
+      }
+
+    }
+
+    .tag-procent,
+    .alert-promo {
+      position: absolute;
+      background: $red-primary;
+    }
+
+    .alert-promo {
+      display: flex;
+      align-items: center;
+
+      padding: 5px 0;
+      left: 9rem;
+      top: 13rem;
+      width: 10rem;
+      
+      .flash-img {
+        padding: 0 5px;
+      }
+
+      img {
+        color: $white-primary;
+        width: 1.5rem;
+      }
+    }
   }
 
   .product-empty {
@@ -142,35 +171,35 @@
     box-shadow: $shadow;
   }
 
-
   .btn-block {
     padding-top: 1rem;
-  
+
     @include flexCenter(initial, center);
-  
+
     .btn-buy {
       @include flexCenter(initial, center);
-      
+
       background: $red-tertiary;
       border: 0;
       cursor: pointer;
       border-radius: 0;
-     
+
       .fas {
         margin-left: 3px;
       }
-  
+
       &:hover {
         background: #0c1979;
       }
-  
+
       span {
         padding-left: 1rem;
       }
     }
   }
 
-  .btn-buy, .btn-empty{
+  .btn-buy,
+  .btn-empty {
     width: 100%;
     color: $white-primary;
     text-decoration: none;
@@ -178,15 +207,11 @@
     padding: 10px 15px;
     @include flexCenter(initial, center);
   }
-  
+
   .btn-block-empty {
     background-color: #bebebe;
     .btn-empty {
       cursor: none;
-  
     }
   }
-
-
-
 }

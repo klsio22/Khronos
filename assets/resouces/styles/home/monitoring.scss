@@ -1,10 +1,9 @@
 @import "../variables";
 
 .monitoring {
- 
   display: flex;
   justify-content: center;
-  justify-content:space-around;
+  justify-content: space-around;
   flex-wrap: wrap;
   .monitoring-img {
     width: 50rem;
@@ -23,24 +22,19 @@
       left: 25rem;
       top: -20rem;
 
-
-    .cicle-arrow-right {
-      padding-left: 1rem;
+      .cicle-arrow-right {
+        padding-left: 1rem;
+      }
     }
-    }
-
-    
   }
 
   .description-elements {
     display: flex;
     align-items: center;
-
   }
 
   .cicle-arrow-right {
     height: 4rem;
-    
 
     span {
       padding: 9px 18px;
@@ -51,16 +45,13 @@
     }
   }
 
-
-  .discover-stores-monitoring{
-
-    .all-stores{
+  .discover-stores-monitoring {
+    .all-stores {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      
     }
-  
+
     .block-store {
       width: 30rem;
       height: 22rem;
@@ -68,15 +59,15 @@
     }
 
     .description-elements {
-
       justify-content: end;
       padding: 0 1rem;
     }
-  
-
-
-
   }
+}
 
 
+@media (max-width: 1000px) {
+  .monitoring{
+    display: none;
+  }
 }
