@@ -1,0 +1,82 @@
+@import "../variables";
+
+.monitoring {
+ 
+  display: flex;
+  justify-content: center;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  .monitoring-img {
+    width: 50rem;
+    overflow: hidden;
+    height: 22rem;
+
+    img {
+      width: 50rem;
+    }
+  }
+
+  .monitoring-itens {
+    .description-img {
+      width: 20rem;
+      position: relative;
+      left: 25rem;
+      top: -20rem;
+
+
+    .cicle-arrow-right {
+      padding-left: 1rem;
+    }
+    }
+
+    
+  }
+
+  .description-elements {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .cicle-arrow-right {
+    height: 4rem;
+    
+
+    span {
+      padding: 9px 18px;
+
+      font-size: 2rem;
+      border: 2px solid $white-primary;
+      border-radius: 100%;
+    }
+  }
+
+
+  .discover-stores-monitoring{
+
+    .all-stores{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      
+    }
+  
+    .block-store {
+      width: 30rem;
+      height: 22rem;
+      background-color: $grey-primary;
+    }
+
+    .description-elements {
+
+      justify-content: end;
+      padding: 0 1rem;
+    }
+  
+
+
+
+  }
+
+
+}

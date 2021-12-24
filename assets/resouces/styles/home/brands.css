@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
-.Buy-by-brands .owl-brands {
+.buy-by-brands .title {
+  color: #920c0b;
+}
+
+.buy-by-brands .owl-brands {
   padding: 1.3rem;
 }
 
-.Buy-by-brands .owl-brands .brand {
+.buy-by-brands .owl-brands .brand {
   width: 10rem;
   height: 5rem;
   background-color: #bebebe;
   border-radius: 5px;
 }
 
-.Buy-by-brands .owl-carousel.owl-drag .owl-item {
+.buy-by-brands .owl-carousel.owl-drag .owl-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,24 +26,24 @@
           justify-content: center;
 }
 
-.Buy-by-brands .owl-prev {
+.buy-by-brands .owl-prev {
   left: -10px;
   width: 1rem;
 }
 
-.Buy-by-brands .owl-next {
+.buy-by-brands .owl-next {
   right: 5px;
   width: 1rem;
 }
 
-.Buy-by-brands .owl-prev,
-.Buy-by-brands .owl-next {
+.buy-by-brands .owl-prev,
+.buy-by-brands .owl-next {
   position: absolute;
   top: 15px;
 }
 
-.Buy-by-brands .owl-prev span,
-.Buy-by-brands .owl-next span {
+.buy-by-brands .owl-prev span,
+.buy-by-brands .owl-next span {
   font-size: 3rem;
 }
 /*# sourceMappingURL=brands.css.map */

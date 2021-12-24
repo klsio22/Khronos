@@ -6,17 +6,18 @@
   justify-content: $justify_content;
 }
 
-.buy-by-brands {
+.buy-by-category {
   .title {
     color: $red-secondary;
   }
-  .owl-brands {
-    padding: 1.3rem;
-    .brand {
-      width: 10rem;
-      height: 5rem;
-      background-color: $grey-primary;
-      border-radius: 5px;
+  .owl-categorys {
+    padding: 2rem;
+    .circle {
+      width: 6rem;
+      height: 6rem;
+      background-color: $white-primary;
+      border: 2px solid grey;
+      border-radius: 100%;
     }
   }
 
@@ -25,19 +26,19 @@
   }
 
   .owl-prev {
-    left: -10px;
+    left: 0px;
     width: 1rem;
   }
 
   .owl-next {
-    right: 5px;
+    right: 8px;
     width: 1rem;
   }
 
   .owl-prev,
   .owl-next {
     position: absolute;
-    top: 15px;
+    top: 30px;
   }
 
   .owl-prev span,

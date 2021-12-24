@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+.monitoring {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.monitoring .monitoring-img {
+  width: 50rem;
+  overflow: hidden;
+  height: 22rem;
+}
+
+.monitoring .monitoring-img img {
+  width: 50rem;
+}
+
+.monitoring .monitoring-itens .description-img {
+  width: 20rem;
+  position: relative;
+  left: 25rem;
+  top: -20rem;
+}
+
+.monitoring .monitoring-itens .description-img .cicle-arrow-right {
+  padding-left: 1rem;
+}
+
+.monitoring .description-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.monitoring .cicle-arrow-right {
+  height: 4rem;
+}
+
+.monitoring .cicle-arrow-right span {
+  padding: 9px 18px;
+  font-size: 2rem;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+
+.monitoring .discover-stores-monitoring .all-stores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.monitoring .discover-stores-monitoring .block-store {
+  width: 30rem;
+  height: 22rem;
+  background-color: #bebebe;
+}
+
+.monitoring .discover-stores-monitoring .description-elements {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 0 1rem;
+}
+/*# sourceMappingURL=monitoring.css.map */

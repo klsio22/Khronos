@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+.buy-by-category .title {
+  color: #920c0b;
+}
+
+.buy-by-category .owl-categorys {
+  padding: 2rem;
+}
+
+.buy-by-category .owl-categorys .circle {
+  width: 6rem;
+  height: 6rem;
+  background-color: #fff;
+  border: 2px solid grey;
+  border-radius: 100%;
+}
+
+.buy-by-category .owl-carousel.owl-drag .owl-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.buy-by-category .owl-prev {
+  left: 0px;
+  width: 1rem;
+}
+
+.buy-by-category .owl-next {
+  right: 8px;
+  width: 1rem;
+}
+
+.buy-by-category .owl-prev,
+.buy-by-category .owl-next {
+  position: absolute;
+  top: 30px;
+}
+
+.buy-by-category .owl-prev span,
+.buy-by-category .owl-next span {
+  font-size: 3rem;
+}
+/*# sourceMappingURL=category.css.map */
