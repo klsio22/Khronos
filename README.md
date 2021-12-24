@@ -1,5 +1,5 @@
 <h1 align="center">
-  Kronos
+  Khronos
 </h1>
 
 ## 🚀 Tecnologias
