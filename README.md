@@ -15,11 +15,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-✈️ Objetivo da aplicação é uma criar um layout home de uma loja virtual para vendas de produtos
+✈️ Objetivo da aplicação é uma criar um layout home de uma loja virtual para vendas de produtos.
+
+✈️ Link do projeto no gitPages:[Kronos](https://klsio22.github.io/Khronos/)
 
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://xd.adobe.com/view/9d414b12-87d1-4d69-a0f2-25089c8496e3-c812/screen/4a7c9cc9-580b-4078-896b-2a101513c10e/).
+
 
 
 ##  📜 Como executar
