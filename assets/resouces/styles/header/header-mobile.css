@@ -12,5 +12,8 @@
   .top-site .top-main .search-auth-cart .content-search-top {
     padding: 1rem 0 1rem 4rem;
   }
+  .top-site .top-main .search-auth-cart .content-search-top .input-search {
+    width: 20rem;
+  }
 }
 /*# sourceMappingURL=header-mobile.css.map */
