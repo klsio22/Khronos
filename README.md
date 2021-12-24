@@ -11,7 +11,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Jquery
 - Javascript
 - Owl Carousel v2
-- Bootstrap v2
+- Bootstrap v5
 
 
 ## 💻 Projeto
