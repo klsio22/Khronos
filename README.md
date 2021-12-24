@@ -10,14 +10,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Sass
 - Jquery
 - Javascript
-- Owl Carousel 2
+- Owl Carousel v2
+- Bootstrap v2
 
 
 ## 💻 Projeto
 
 ✈️ Objetivo da aplicação é uma criar um layout home de uma loja virtual para vendas de produtos.
 
-✈️ Link do projeto no gitPages:[Kronos](https://klsio22.github.io/Khronos/)
+✈️ Link do projeto no gitPages: [Kronos](https://klsio22.github.io/Khronos/)
 
 ## 🔖 Layout
 
@@ -34,7 +35,3 @@ Você pode visualizar o layout do projeto através [desse link](https://xd.adobe
 obs: Lembre-se de comentar esse trecho do código do top do head quando estiver em localhost : `
    + "/" + location.href.split("/")[3] + "/";
     document.getElementsByTagName("head")[0].appendChild(base);`
-
-
-
-
