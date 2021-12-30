@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://xd.adobe.com/view/9d414b12-87d1-4d69-a0f2-25089c8496e3-c812/screen/4a7c9cc9-580b-4078-896b-2a101513c10e/).
+Você pode visualizar o layout do projeto por meio [desse link](https://xd.adobe.com/view/9d414b12-87d1-4d69-a0f2-25089c8496e3-c812/screen/4a7c9cc9-580b-4078-896b-2a101513c10e/).
 
 
 

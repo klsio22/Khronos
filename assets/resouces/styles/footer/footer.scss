@@ -78,7 +78,6 @@
 
   .icons-social-midia {
     @include flexElement(center, center);
-      flex-wrap: wrap;
 
     .item-social-midia {
       @include flexElement(center, center);

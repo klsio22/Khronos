@@ -8,6 +8,10 @@
   .register .col-register div {
     padding: 0.5rem;
   }
+  .social-midia .message-social-midia {
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
   .content-register .form-footer .btn-footer {
     width: inherit;
   }
